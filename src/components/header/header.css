@@ -26,5 +26,39 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 10rem;
+}
+
+.header__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* ======================= ME ======================= */
+.me {
+  /* background-color: var(--color-primary); */
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.img__me {
+  border-radius: 12rem 12rem 1rem 1rem;
+  background: linear-gradient(var(--color-primary), transparent);
+}
+
+/* ======================= SCROLL DOWN ======================= */
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 12rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
