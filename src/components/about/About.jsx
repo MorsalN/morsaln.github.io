@@ -17,31 +17,32 @@ const About = () => {
             <img src={Me} alt="About Image" />
           </div>
         </div>
-        <div className="about__content"></div>
-        <div className="about__cards">
-          <article className="about__card">
-            <FaAward className="about__icon" />
-            <h5>Experience</h5>
-            <small>2+ Years</small>
-          </article>
-          <article className="about__card">
-            <TbSchool className="about__icon" />
-            <h5>Education</h5>
-            <small>Lighthouse Labs - Full Stack Web Development</small>
-            <small>BCIT - Full Stack Web Development</small>
-            <small>UBC - </small>
-          </article>
-          <article className="about__card">
-            <FaRegFolderOpen className="about__icon" />
-            <h5>Projects</h5>
-            <small>10+ Completed</small>
-          </article>
-        </div>
-        <p>More info for about me! </p>
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Experience</h5>
+              <small>2+ Years</small>
+            </article>
+            <article className="about__card">
+              <TbSchool className="about__icon" />
+              <h5>Education</h5>
+              {/* <small>Lighthouse Labs - Full Stack Web Development</small>
+            <small>BCIT - Full Stack Web Development</small> */}
+              <small>UBC - </small>
+            </article>
+            <article className="about__card">
+              <FaRegFolderOpen className="about__icon" />
+              <h5>Projects</h5>
+              <small>10+ Completed</small>
+            </article>
+          </div>
+          <p>More info for about me! </p>
 
-        <a href="#contact" className="btn btn-primary">
-          Let's Connect
-        </a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Connect
+          </a>
+        </div>
       </div>
     </section>
   );
