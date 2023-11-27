@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Me from "./../../assets/me-pic.png";
+import Me from "./../../assets/me-pic4.avif";
 import { FaAward } from "react-icons/fa";
 import { TbSchool } from "react-icons/tb";
 import { FaRegFolderOpen } from "react-icons/fa";
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Me} alt="About Image" />
+            <img src={Me} alt="About" />
           </div>
         </div>
         <div className="about__content">

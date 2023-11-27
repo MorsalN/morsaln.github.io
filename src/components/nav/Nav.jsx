@@ -38,7 +38,7 @@ const Nav = () => {
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "portfolio" ? "active" : " "}
+        className={activeNav === "#portfolio" ? "active" : " "}
       >
         <RiBook2Line />
       </a>
