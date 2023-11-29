@@ -11,3 +11,7 @@
   height: fit-content;
   transition: var(--transition);
 }
+
+.service:hover {
+  background: transparent;
+}
