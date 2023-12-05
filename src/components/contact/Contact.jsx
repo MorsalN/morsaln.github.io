@@ -5,7 +5,10 @@ import { BsLinkedin } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const email = process.env.CONTACT_EMAIL;
+const email = process.env.REACT_APP_CONTACT_EMAIL;
+const serviceId = process.env.REACT_APP_SERVICE_ID;
+const templateId = process.env.REACT_APP_TEMPLATE_ID;
+const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
 const Contact = () => {
   const form = useRef();
@@ -13,21 +16,17 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        form.current,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+
+    // Resetting the Send Message button
+    e.target.reset();
   };
 
   return (
@@ -40,8 +39,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdMailOutline className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>{email}</h5>
-            <a href="mailto:" target="_blank">
+            {/* <h5>email is: {email}</h5> */}
+            <a href={`mailto:${email}`} target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -49,7 +48,11 @@ const Contact = () => {
             <BsLinkedin className="contact__option-icon" />
             <h4>Linkedin</h4>
             <h5>Morsal Niyaz</h5>
-            <a href="https://www.linkedin.com/in/morsalniyaz/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/morsalniyaz/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Connect
             </a>
           </article>
