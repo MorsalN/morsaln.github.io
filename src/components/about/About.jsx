@@ -20,11 +20,13 @@ const About = () => {
           </div>
           <div className="about__me-description">
             <p>
-              More info for about me! More info for about me!More info for about
-              me!More info for about me!More info for about me!More info for
-              about me!More info for about me!
+              Hello World! <br /> I am a Full Stack Developer with a background
+              in GIS and Env Sciences. My multifaceted experience has fueled my
+              commitment to pursuing a dynamic career in development.
+              <br />
+              -Morsal
             </p>
-
+            <br />
             <a href="#contact" className="btn btn-primary">
               Let's Connect
             </a>
