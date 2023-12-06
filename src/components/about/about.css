@@ -31,7 +31,7 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 1.5rem;
 }
 
@@ -48,6 +48,14 @@
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+}
+
+.about__me-description {
+  margin-top: 3rem;
+}
+
+strong {
+  color: var(--color-primary);
 }
 
 .about__icon {
