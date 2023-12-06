@@ -1,14 +1,14 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "./../../assets/sample-portfolio.jpeg";
+import IMG1 from "./../../assets/silk.jpeg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: "Silk Carpet Business Website for Client",
-    github: "https://github.com",
-    demo: "https://github.com",
+    github: "https://github.com/MorsalN/silk",
+    demo: "https://www.samarkandsilkcarpets.com/",
   },
   {
     id: 2,
