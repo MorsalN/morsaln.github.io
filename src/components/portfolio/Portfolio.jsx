@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "./../../assets/silk.jpeg";
+import IMG2 from "./../../assets/condo1.png";
+import IMG3 from "./../../assets/food1.png";
 
 const data = [
   {
@@ -12,21 +14,21 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
-    title: "Silk Carpet Business Website for Client 2",
-    github: "https://github.com",
-    demo: "https://github.com",
+    image: IMG2,
+    title: "Condo Books",
+    github: "https://github.com/MorsalN/bookingCondoAmenities",
+    // demo: "https://github.com",
   },
   {
     id: 3,
-    image: IMG1,
-    title: "Silk Carpet Business Website for Client 3",
+    image: IMG3,
+    title: "Uber Eats Clone",
     github: "https://github.com",
-    demo: "https://github.com",
+    // demo: "https://github.com",
   },
 ];
 
-const Portfolio = () => {
+const Portfolio = ({ demo }) => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -49,14 +51,18 @@ const Portfolio = () => {
                 >
                   Github
                 </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
+                <div>
+                  {demo && (
+                    <a
+                      href={demo}
+                      className="btn btn-primary"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live Demo
+                    </a>
+                  )}
+                </div>
               </div>
             </article>
           );
