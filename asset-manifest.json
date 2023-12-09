@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1af8118d.css",
+    "main.js": "/static/js/main.4327e83f.js",
+    "static/media/food1.png": "/static/media/food1.a1d576e4fb66733a063e.png",
+    "static/media/me-gif4.gif": "/static/media/me-gif4.b0c7b9a83c2510864e7e.gif",
+    "static/media/condo1.png": "/static/media/condo1.5c72dca95a13ceb03df8.png",
+    "static/media/silk.jpeg": "/static/media/silk.521ab759e5cfb5a9a92a.jpeg",
+    "static/media/morsal-cv.pdf": "/static/media/morsal-cv.cf4714ba9988ca6f76d8.pdf",
+    "static/media/me-pic4.avif": "/static/media/me-pic4.45eafddc83e466a5784f.avif",
+    "index.html": "/index.html",
+    "main.1af8118d.css.map": "/static/css/main.1af8118d.css.map",
+    "main.4327e83f.js.map": "/static/js/main.4327e83f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1af8118d.css",
+    "static/js/main.4327e83f.js"
+  ]
+}
