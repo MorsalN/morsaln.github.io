@@ -69,7 +69,7 @@ const Services = () => {
             <li>
               <FaCheck className="service__list-icon" />
               <p>
-                Created and desgined dynamic button, on Figma, used across
+                Created and designed dynamic button, on Figma, used across
                 company's website
               </p>
             </li>

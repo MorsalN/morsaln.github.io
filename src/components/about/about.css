@@ -69,11 +69,19 @@ strong {
 }
 
 .about__card h5 {
+<<<<<<< HEAD
   font-size: 0.95rem;
 }
 
 .about__card small {
   font-size: 0.7rem;
+=======
+  font-size: 1.1rem;
+}
+
+.about__card small {
+  font-size: 1rem;
+>>>>>>> gh-pages
   color: var(--color-light);
 }
 
@@ -107,7 +115,7 @@ strong {
   }
 
   .about__cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 

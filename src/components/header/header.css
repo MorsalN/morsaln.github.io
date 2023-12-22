@@ -31,8 +31,8 @@ header {
 
 .header__socials::after {
   content: "";
-  width: 1px;
-  height: 2rem;
+  width: 5px;
+  height: 3rem;
   background: var(--color-primary);
 }
 
@@ -80,4 +80,11 @@ header {
   .scroll__down {
     display: none;
   }
+<<<<<<< HEAD
+=======
+  .me {
+    width: 20rem;
+    margin-left: 2.5rem;
+  }
+>>>>>>> gh-pages
 }

@@ -21,8 +21,9 @@ const About = () => {
           <div className="about__me-description">
             <p>
               Hello World! <br /> I am a Full Stack Developer with a background
-              in GIS and Env Sciences. My multifaceted experience has fueled my
-              commitment to pursuing a dynamic career in development.
+              in GIS and Environmental Sciences. Diving into the digital realm,
+              one line of code at a time, because programming is my favourite
+              playground!
               <br />
               -Morsal
             </p>
